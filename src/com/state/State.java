@@ -1,5 +1,11 @@
 package com.state;
 
-public interface State {
-    void request( Context ctx);
+public class State {
+
+    public State doA(){
+        return this;
+    }
+    public State doB(){
+        return this;
+    }
 }

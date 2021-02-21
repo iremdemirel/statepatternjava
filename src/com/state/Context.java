@@ -1,19 +1,23 @@
 package com.state;
 
 public class Context {
-    State currentState;
+
+    State currentstate;
 
     public Context(){
-        this.currentState = new StateA();
+
+        currentstate = new StateA();
+
     }
 
-    public void valueChange(int val){
-        if(val <=0){
-            this.currentState = new StateA();
-        }
-        else
-            this.currentState = new StateB();
-
-        currentState.request(this);
+    public void doA(){
+        System.out.print("ctx : A-- \n");
+        currentstate = currentstate.doA();
     }
+
+    public void doB(){
+        System.out.print("ctx : B-- \n");
+        currentstate = currentstate.doB();
+    }
+
 }
