@@ -12,4 +12,4 @@ According to the value:
 if the value of context is less than or equal to 0 , then state is A,
 else state is B
 
-![alt text](http://gyanendushekhar.com/wp-content/uploads/2016/11/State-Design-Pattern-in-C-UML.png)
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/State_Design_Pattern_UML_Class_Diagram.svg/713px-State_Design_Pattern_UML_Class_Diagram.svg.png)
